@@ -1,0 +1,64 @@
+/*
+Colors used
+
+Primary Color (Dark Orange): #F27C59;
+Secondary Color (Dark Gray): #768188;
+Secondary color (Dark Green-Blue): #6991AC;
+*/
+body{
+  background-color: light gray;
+  font-family: Abril Fatface, Helvetica Neue;
+  font-size: 16px;
+  line-height:1.6;
+}
+h1{
+  font-size: 30px;
+  font-weight: bold;
+  color:#F27C59;
+}
+h2{
+  font-size:24px;
+  font-weight:bold;
+}
+h3{
+  font-size:18px;
+  font-weight:bold;
+}
+div {
+  padding: 10px;
+  margin: 10px;
+}
+a {
+  color: #1C49F8;
+}
+a:hover,
+a:focus {
+  text-decoration:none;
+}
+a:visited {
+  /*visited link*/
+  color: #1C49F8;
+}
+a:active {
+  /*selected link*/
+  color: #9013FE;
+}
+button {
+  /*overwrite browser defaults*/
+  border:none; /*reset the border*/
+  font-family: Roboto;
+
+  /*style button*/
+  background color: #2AEE12;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #13711C;
+  transition: 0.2s opacity;
+}
+button:hover,
+button:focus {
+  cursor: pointer;
+  opacity:0.8;
+}
