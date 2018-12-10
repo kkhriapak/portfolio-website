@@ -173,3 +173,17 @@ float: right;
     margin-right: 0;
   }
 }
+
+button, /*Applies for buttons in a form*/
+.button {/*Applies for links with the button class*/
+border: none;
+font-family: pt serif;
+background-color: #2fd6c8;
+color: white !important;
+text-decoration: none;
+paddinf: 10px;
+border-radius: 3px;
+border-bottom: 2px solid #26f2e1;
+transition-duration: 0.2s;
+transition-property: opacity;
+}
