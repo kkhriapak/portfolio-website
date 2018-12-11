@@ -16,7 +16,7 @@ body{
 nav {
   display: inline-block;
   float: right;
-  marging-right: 1.1%;
+  margin-right: 1.1%;
   margin-top: 20px;
 }
 
@@ -58,11 +58,6 @@ h5{
   font-family: "Open Sans";
   color:black;
   text-align: left;
-}
-
-div {
-  padding: 10px;
-  margin: 10px;
 }
 
 a {
@@ -167,7 +162,10 @@ float: right;
   .column-4 {
     /*Modify 4-column to 2-columns*/
     width: 49%;
-    marging-right: 1%;
+    margin-right: 1%;
+  }
+  .column-4 img {
+    width: 100%
   }
   .column-4:nth-child(2) {
     margin-right: 0;
@@ -181,7 +179,7 @@ font-family: pt serif;
 background-color: #2fd6c8;
 color: white !important;
 text-decoration: none;
-paddinf: 10px;
+padding: 10px;
 border-radius: 3px;
 border-bottom: 2px solid #26f2e1;
 transition-duration: 0.2s;
